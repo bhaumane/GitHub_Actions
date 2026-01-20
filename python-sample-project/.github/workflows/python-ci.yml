@@ -1,9 +1,7 @@
 name: Python CI
-on:
-  push:
-    branches: [ main, master ]
+on: push 
 
-job:
+jobs:
   build:
     runs-on: ubuntu-latest
 
